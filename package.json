@@ -1,0 +1,34 @@
+{
+  "name": "elm-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./bin/www",
+    "start": "cross-env NODE_ENV=production pm2 start ./bin/www"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.0",
+    "date-fns": "^2.9.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0",
+    "formidable": "^1.2.1",
+    "gm": "^1.23.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.8.9",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pinyin": "^2.9.0",
+    "qiniu": "^7.3.0",
+    "svg-captcha": "^1.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+node_modules
+yarn.lock
+package-lock.json
+.idea
+*.iml
+out
+gen
+ignore.html
+.DS_Store
